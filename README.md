@@ -9,4 +9,4 @@ Want to see more about us? [See this site](https://TorrentStudio.github.io) or [
 
 ---
 
-:octocat:
+[:octocat:](https://github.com/TorrentStudio/TorrentStudio.github.io)
