@@ -27,6 +27,13 @@
 		<script>
 			console.log('激流工作室链接： \nhttps://mozhua.aerfaying.com/Studios/20426 \n\n加入激流工作室公开群： \nhttps://jq.qq.com/?_wv=1027&k=ncKxRP6T')
 		</script>
+		<script>
+			function refresh() {
+				var ladd = window.location.href;
+				window.location.replace(ladd);
+			}
+		</script>
+				
 	</head>
 	<body class="mdui-appbar-with-toolbar" bgcolor="mdui-color-blue-300">
 		<div class="mdui-appbar mdui-appbar-fixed">
@@ -43,7 +50,7 @@
 				
 				<div class="mdui-toolbar-spacer"></div>
 				
-				<a href="/" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: '刷新'}"><i class="mdui-icon material-icons">refresh</i></a>
+				<a onclick="refresh()" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: '刷新'}"><i class="mdui-icon material-icons">refresh</i></a>
 				
 				<a 
 					href="//github.com/TorrentStudio/TorrentStudio.github.io/issues" 
